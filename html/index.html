@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<div class="title">
+    <h1>Онлайн калькулятор</h1>
+</div>
+<div class="modal" id="myModal">
+    <div class="modal-content">
+        <span class="close" id="modalClose">&times;</span>
+        <h2>Мой Github</h2>
+        <a href="">
+            <p>"https://github.com/KITIK288"</p>
+        </a>
+    </div>
+</div>
+
+<div class="theme-button">
+    <button id="themeToggle">İ</button>
+</div>
+<div class="calculator">
+    <input type="text" class="calculator-display" disabled placeholder="0">
+    <div class="calculator-keys">
+        <button class="operator" data-action="add">+</button>
+        <button class="operator" data-action="subtract">-</button>
+        <button class="operator" data-action="multiply">×</button>
+        <button class="operator" data-action="divide">÷</button>
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="operator" data-action="root">**</button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="operator" data-action="equals">=</button>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="number">0</button>
+    </div>
+</div>
+<script src="../js/index.js"></script>
+</body>
+</html>
